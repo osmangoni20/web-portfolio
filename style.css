@@ -1,0 +1,87 @@
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0px;
+}
+h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+.top-section{
+
+    height: 500px;
+    background-image: url("image/top-banner.png");
+    background-repeat: no-repeat;
+
+}
+.dream-section{
+    height: 550px;
+    background-image: url("image/dream-bg.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    display: block;
+}
+.half-width{
+    float: left;
+    padding-left: 5px;
+    margin-left: 60px;
+    width: 40%;
+}
+.half-width p{
+    color: darkgray;
+    text-align: justify;
+}
+.half-width img{
+    padding-top: 10px;
+    width: 100%;
+    display: inline-block;
+    height: 80%;
+}
+.orange-heighlite{
+    color: orange;
+}
+.button-heighlite{
+    padding: 5px;
+    background-image: linear-gradient(45deg,orange,red);
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.half-width a{
+    text-decoration: none;
+}
+.experience-section{
+
+    text-align: left;
+    height: 500px;
+    background-image: url("/image/exp-bg.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    
+}
+.Single-Exp{
+    box-shadow: 20px 20px 40px gray;
+    border-radius: 5px;
+    height: 60%;
+    padding: 10px;
+    background-color: white;
+}
+#first-exp{
+    border-left: 7px solid;
+    border-image: linear-gradient(120deg,orange,red);
+    border-image-slice: 1;
+}
+#second-exp{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
+}
